@@ -55,6 +55,8 @@ binop: "="     -> assign
         | ">"  -> greaterthan
         | "<=" -> lessequal
         | ">=" -> morequal
+        | "&&" -> and
+        | "||" -> or
 
 ?args: identifier | (expression ",")*
 

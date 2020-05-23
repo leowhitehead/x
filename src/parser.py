@@ -1,6 +1,7 @@
 from lark import Transformer, Lark
 from base64 import b64encode
 from sys import stderr, exit
+import re
 from grammar import grammar
 from data import *
 
@@ -149,6 +150,7 @@ def isstring(string):
     or string.startswith("x_d(") and string.endswith(")")
 
 def parse(source):
+    source = re.sub(r'\/\*.+\*\/', '', source)  #remove comments
     x_parser = Lark(grammar, start='library', parser='lalr', transformer=parser())
     try:
         tree = x_parser.parse(source)

@@ -42,7 +42,7 @@ def main():
         os.system(f"echo {output} | base64 -d > {outfile}")
 
 def help():
-    print("Usage: x program.x [-o output] [-s]\n")
+    print("Usage: x program.x [-o output] [-c compiler] [-s]\n")
     sys.exit(0)
 
 if __name__ == "__main__":

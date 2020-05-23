@@ -11,7 +11,9 @@ binops = {
     'greaterthan': '>',
     'lessequal': '<=',
     'morequal': '>=',
-    'modulo': '%'
+    'modulo': '%',
+    'and': '&&',
+    'or': '||',
 }
 
 defaultCompiler = "clang"
