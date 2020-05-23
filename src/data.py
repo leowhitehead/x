@@ -33,17 +33,3 @@ void x_print_string(char* s){printf("%s",s);}
 char* stradd(const char *s1, const char *s2){char *result=malloc(strlen(s1)+strlen(s2)+1);strcpy(result,s1);strcat(result,s2);return result;}
 /*--------BEGIN X PROGRAM----------*/
 """
-
-
-
-'''
-x (normal x): main function, reserved
-X (capital x): print
-х (cyrillic): integer input
-ӽ (nivkh) : string input
- python3 main.py | clang -x c - -o main -w && ./main
-
- https://repl.it/repls/HandmadeAdmiredProduct
-
- 
-'''
