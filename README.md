@@ -2,24 +2,12 @@
 
 X: A programming language that only accepts identifiers that look like the letter 'x'.
 
+  
 
 ![xkcd 2309](x.png)
 
 Based on the idea from [xkcd 2309](https://xkcd.com/2309/).
 
-```c
-func 𝕩(✗){
-    if(✗<=1)
-        return ✗;
-    return 𝕩(✗-1,)+𝕩(✗-2,);
-}
-func x(){
-    let 🗙 = х("Enter a number: :",);
-    X(𝕩(🗙,),);
-    X("\n",);
-}
-```
-More code examples are available in [/examples](https://github.com/lduck11007/x/tree/master/examples).
 # About
 In the X language, only characters that closely resemble the letter 'x' can be used to define variables or functions. Any attempt to use a character that does not closely enough resemble an 'x' will result in a syntax error.
 
@@ -47,3 +35,58 @@ X source code is first transcompiled into C, before being compiled to an executa
 - `-o` specifies the output file, which is `a.out` by default.
 - `-s` outputs the file as C source code and does not compile to an executable.
 - `-c` specifies the compiler which is used to compile the C source code into an executable. The compiler is `clang` by default, but this can be changed to another compiler such as `gcc`.
+
+# Examples
+
+#### helloworld.x
+```c
+func x(){
+    X("hello world!\n",);
+}
+```
+
+#### greet.x
+```c
+func x(){
+    let Χ = "Hello, " + ӽ("What is your name? ",);
+    X(Χ,);
+    X("\n",);
+}
+```
+
+#### fibonacci.x
+```c
+func 𝕩(✗){
+    if(✗<=1)
+        return ✗;
+    return 𝕩(✗-1,)+𝕩(✗-2,);
+}
+func x(){
+    let 🗙 = х("Enter a number: :",);
+    X(𝕩(🗙,),);
+    X("\n",);
+}
+```
+
+### fizzbuzz.x
+```c
+func x(){
+    let Χ = 1;
+    while(Χ<101){
+        if(Χ%15==0)
+            X("FizzBuzz",);
+        if((Χ%3==0)&&(Χ%5!=0))
+            X("Fizz",);
+        if((Χ%3!=0)&&(Χ%5==0))
+            X("Buzz",);
+        if((Χ%3!=0)&&(Χ%5!=0))
+            X(Χ,);
+        X("\n",);
+        Χ = Χ+1;
+    }
+}
+```
+
+# FAQ
+### Why?
+I have way too much free time.
