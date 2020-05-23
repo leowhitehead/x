@@ -8,7 +8,7 @@ __pycache__/
 main
 a.out
 x
-
+test.x
 # Distribution / packaging
 .Python
 build/

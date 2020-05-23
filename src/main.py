@@ -8,7 +8,7 @@ def main():
     args = sys.argv[1:]
     if len(args) == 0:
         error("invalid flags/options, use -h for help")
-    flags = {'-'+x: None for x in ['o','s','c','p']}
+    flags = {'-'+x: None for x in ['o','s','c']}
     args = sys.argv[1:]
     if '-h' in args:
         help()

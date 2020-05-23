@@ -31,7 +31,7 @@ identifier: "x" -> main
         |   "✗" -> x_q
         |   "✘" -> x_r
         |   "🗙" -> x_s
-        |   "🆇" -> x_t
+        |   "🗴" -> x_t
         |   "ᚷ"  -> x_u
 
 expression: SIGNED_NUMBER                          -> number
