@@ -54,6 +54,18 @@ func x(){
 }
 ```
 
+#### randomNumber.x
+```c
+func ᚷ(){
+    return 4;   /* chosen by fair dice roll. */
+}               /* guaranteed to be random */
+
+func x(){
+    X(ᚷ(),);
+    X("\n",);
+}
+```
+
 #### fibonacci.x
 ```c
 func 𝕩(✗){
@@ -89,4 +101,4 @@ func x(){
 
 # FAQ
 ### Why?
-I have way too much free time.
+Good question.
