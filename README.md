@@ -22,7 +22,7 @@ Additionally, X has four further identifiers which have a reserved or built-in u
  - `х`, which takes integer inputs from `stdin`.
  - `ӽ`, which takes string inputs from `stdin`.
 
-The X compiler only supports ASCII characters in the source code, with the only exception being that identifiers may be a Unicode character, as long as it closely resembles the appearance of the letter 'x'. Any attempts to use a non-ASCII character that does not resemble an 'x' will result in a compiler error.
+The X compiler only supports ASCII characters in the source code, with the only exception being that identifiers may be a Unicode character, as long as it closely resembles the appearance of the letter 'x'. Any attempts to use a non-ASCII character that does not resemble an 'x' will result in a compilation error.
 
 # Usage
 
