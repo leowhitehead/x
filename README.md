@@ -11,9 +11,9 @@ Based on the idea from [xkcd 2309](https://xkcd.com/2309/).
 # About
 In the X language, only characters that closely resemble the letter 'x' can be used to define variables or functions. Any attempt to use a character that does not closely enough resemble an 'x' will result in a syntax error.
 
-X currently provides the following 17 possible identifiers which may be used to define variables or functions:
+X currently provides the following 40 possible identifiers which may be used to define variables or functions:
 ```
-Χ, χ, ҳ, 𝔵, 𝖝, 𝔁, 𝕩, 𝚡, 乂, ﾒ, ✕, ✖, ✗, ✘, 🗙, 🗴, ᚷ
+Χ, χ, ҳ, 𝔵, 𝖝, 𝔁, 𝕩, 𝚡, 乂, ﾒ, ✕, ✖, ✗, ✘, 🗙, 🗴, ᚷ, 🅇, 𝗑, 𝖷, 𝐱, 𝐗, 𝕏, 𝘅, 𝗫, 𝑥, 𝑋, 𝚇, 𝒙, 𝑿, 🆇, 𝔛, 𝘹, 𝘟, 𝓍, 𝒳, 𝖃, 𝙭, 𝙓, 𝓧
 ```
 Additionally, X has four further identifiers which have a reserved or built-in use:
 

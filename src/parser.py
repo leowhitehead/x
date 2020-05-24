@@ -134,6 +134,72 @@ class parser(Transformer):
 
     def x_u(self, items):
         return "x_u"
+    
+    def x_v(self, items):
+        return "x_v"
+
+    def x_w(self, items):
+        return "x_w"
+
+    def x_x(self, items):
+        return "x_x"
+
+    def x_y(self, items):
+        return "x_y"
+
+    def x_z(self, items):
+        return "x_z"
+
+    def x_aa(self, items):
+        return "x_aa"
+
+    def x_ab(self, items):
+        return "x_ab"
+
+    def x_ac(self, items):
+        return "x_ac"
+
+    def x_ad(self, items):
+        return "x_ad"
+
+    def x_af(self, items):
+        return "x_af"
+
+    def x_ag(self, items):
+        return "x_ag"
+
+    def x_ah(self, items):
+        return "x_ah"
+
+    def x_ai(self, items):
+        return "x_ai"
+
+    def x_aj(self, items):
+        return "x_aj"
+
+    def x_ak(self, items):
+        return "x_ak"
+
+    def x_al(self, items):
+        return "x_al"
+
+    def x_am(self, items):
+        return "x_am"
+
+    def x_an(self, items):
+        return "x_an"
+
+    def x_ao(self, items):
+        return "x_ao"
+
+    def x_ap(self, items):
+        return "x_ap"
+
+    def x_aq(self, items):
+        return "x_aq"
+
+    def x_ar(self, items):
+        return "x_ar"
 
     def bin_expr(self, items):
         operator = binops[items[1].data]
