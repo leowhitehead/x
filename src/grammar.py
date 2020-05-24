@@ -1,4 +1,5 @@
-#"It's like [I] tried to define a formal grammar based on fragments of a raw database dump from the QuickBooks file of a company that's about to collapse in an accounting scandal."
+#"It's like [I] tried to define a formal grammar based on fragments of a raw database dump from the QuickBooks file of 
+# a company that's about to collapse in an accounting scandal."
 # - XKCD 1695 Title text.
 
 grammar = r"""?library: function*
