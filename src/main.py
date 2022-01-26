@@ -13,7 +13,7 @@ def main():
     if '-h' in args:
         help()
     compiler = defaultCompiler
-    outfile = "a.out"
+    outfile = "x.out"
     if '-s' in args:
         flags['-s'] = True
         args.remove('-s')
