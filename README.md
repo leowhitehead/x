@@ -28,11 +28,11 @@ The X compiler only supports ASCII characters in the source code, with the only 
 
 X programs can be compiled with the following command:
 ```
-./x file.x [-h] [-s] [-o outfile=a.out] [-c compiler=clang]
+./x file.x [-h] [-s] [-o outfile=x.out] [-c compiler=clang]
 ```
 X source code is first transcompiled into C, before being compiled to an executable.
 - `-h` displays these options and exits.
-- `-o` specifies the output file, which is `a.out` by default.
+- `-o` specifies the output file, which is `x.out` by default.
 - `-s` outputs the file as C source code and does not compile to an executable.
 - `-c` specifies the compiler which is used to compile the C source code into an executable. The compiler is `clang` by default, but this can be changed to another compiler such as `gcc`.
 
