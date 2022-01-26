@@ -17,7 +17,7 @@ def main():
     if '-s' in args:
         flags['-s'] = True
         args.remove('-s')
-        outfile = "a.c"
+        outfile = "x.c"
     for i in range(len(args)-1):
         if args[i] == '-o':
             outfile = args[i+1]
